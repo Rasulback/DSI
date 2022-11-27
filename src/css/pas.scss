@@ -1,0 +1,102 @@
+.pas{
+  padding: 96px 0 87px;
+  &__col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &__row{
+    display: flex;
+    flex-direction: row;
+    &_title{
+      font-family: 'Roboto',sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 133.69%;
+      text-align: center;
+      color: #1F2E35;
+      margin-bottom: 41px;
+      margin-top: 20px;
+    }
+    &_rc{
+      display: flex;
+      flex-direction: row;
+    }
+    &-info{
+      &_title{
+        font-family: 'Roboto',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 133.69%;
+        color: #EE4248;
+        margin: 15px 0 15px;
+      }
+      &_desc{
+        font-family: 'Roboto',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #30444E;
+        margin-bottom: 15px;
+       &-mr{
+         margin-right: 55px;
+       }
+      }
+      &_btn{
+        padding:  8px 16px;
+        font-family: 'Roboto',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 144.69%;
+        color: #FFFFFF;
+        margin-bottom: 23px;
+        background: #EE4248;
+        border: none;
+        border-radius: 5%;
+      }
+    }
+    &_contact{
+      padding: 87px 0 24px;
+      margin-right: 47px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      &_img{
+        height: 56px;
+        width: 119px;
+
+      }
+      &_h4{
+        padding: 10px 0 8px;
+        font-family: 'Roboto',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #263238;
+      }
+      &_desc{
+        font-family: 'Roboto',sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 149.19%;
+        color: #263238;
+      }
+
+      &_h3{
+        padding: 0 0 15px;
+        font-family: 'Roboto',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #263238;
+      }
+    }
+  }
+}
